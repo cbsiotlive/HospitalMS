@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/d97b87339f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="groups.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+
+    <div class="dashboard-nav">
+        <header>
+            <a href="#" class="brand-logo">
+                <i class="fas fa-anchor"></i>
+                <span>BRAND</span></a>
+        </header>
+        <nav class="dashboard-nav-list"><a href="/VMS/dashboard/dashboard.html#" class="dashboard-nav-item">
+                <i class="fas fa-tachometer-alt"></i>
+                Dashboard</a>
+            <a href="/VMS/groups/groups.html#" class="dashboard-nav-item">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                Groups
+            </a>
+            <a href="/VMS/UserConfiguration/UserConfiguration.html#" class="dashboard-nav-item"><i class="fa fa-cogs" aria-hidden="true"></i> User
+                Configuration</a>
+            <a href="/VMS/settings/settings.html#" class="dashboard-nav-item"><i class="fa fa-cog" aria-hidden="true"></i> Settings
+            </a>
+            <a href="/VMS/notification/notification.html#" class="dashboard-nav-item"><i class="fa fa-bell" aria-hidden="true"></i>
+                Notification
+            </a>
+            <a href="/VMS/Help/help.html#" class="dashboard-nav-item"><i class="fa fa-question" aria-hidden="true"></i> Help
+            </a>
+            <div class="nav-item-divider"></div>
+            <a href="#" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
+
+
+
+            <div class="card" style="width: 10rem; border-radius: 10px;margin-left: 30px; margin-top: 40px; overflow: hidden;">
+                <img class="card-img-top" src="img/1.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text" style="font-size: 14px; text-align: center;">Upgrade to pro <br>
+                        for
+                        more features</p>
+                </div>
+                <div class="ml-4 mb-1">
+                    <button type="button" class="btn btn-primary">Update Now</button>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+
+    <!-- ------------------------side ber End---------------------------------- -->
+
+    <!-- ------------------------nev ber---------------------------------- -->
+    <header class='dashboard-toolbar'>
+        <a href="#!" class="menu-toggle">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </a>
+
+
+
+
+
+
+
+        <div class="d-flex align-items-center profile-img" style="margin-left: 980px;">
+            <img src="img/profile.webp" alt="Girl in a jacket" width="50" height="50"
+                style="border-radius: 50%; float: right;">
+        </div>
+        <div class="nav-profile" style="margin-left: 10px;">
+            <h6 style="margin: 0;">Utkarsh@gmail.com</h6>
+            <small>Enterprise Admin</small>
+        </div>
+
+
+    </header>
+    <!-- ------------------------nev ber End---------------------------------- -->
+
+
+
+
+    <!-- ------------------------Main Div---------------------------------- -->
+    <div class='dashboard-app p-4' style="overflow-x: hidden;">
+
+
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <h5 class="card-title p-2"><b>Plant 1</b></h5>
+                    <img class="card-img-top" src="img/2.png" alt="Card image cap" width="300" height="170">
+                    <div class="card-body">
+                        <img src="img/profile.webp" alt="Girl in a jacket" width="60" height="60"
+                            style="border-radius: 50%; float: left;">
+                        <p class="card-text"><b>Admin</b><br><small class="text-muted" id="statusText">Last active today at 6.23
+                                pm</small></p>
+                    </div>
+                    <div class="ml-3 mb-3">
+                        <div id="statusButton" class="status-button offline" ></div><span> Gateman 1</span>
+                        <div id="statusButton" class="status-button offline ml-2"></div><span> Gateman 2</span>
+                        <div id="statusButton" class="status-button offline ml-2" ></div><span> Gateman 3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <h5 class="card-title p-2"><b>Plant 2</b></h5>
+                    <img class="card-img-top" src="img/3.png" alt="Card image cap" width="300" height="170">
+                    <div class="card-body">
+                        <img src="img/profile.webp" alt="Girl in a jacket" width="60" height="60"
+                            style="border-radius: 50%; float: left;">
+                        <p class="card-text"><b>Admin</b><br><small class="text-muted">Last active today at 6.23
+                                pm</small></p>
+                    </div>
+                    <div class="ml-3 mb-3">
+                        <div id="statusButton" class="status-button offline " ></div><span> Gateman 1</span>
+                        <div id="statusButton" class="status-button offline ml-2" ></div><span> Gateman 2</span>
+                        <div id="statusButton" class="status-button offline ml-2" ></div><span> Gateman 3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <h5 class="card-title p-2"><b>Plant 3</b></h5>
+                    <img class="card-img-top" src="img/4.png" alt="Card image cap" width="300" height="170">
+                    <div class="card-body">
+                        <img src="img/profile.webp" alt="Girl in a jacket" width="60" height="60"
+                            style="border-radius: 50%; float: left;">
+                        <p class="card-text"><b>Admin</b><br><small class="text-muted" id="status">Last active today at 6.23
+                                pm</small></p>
+                    </div>
+                    <div class="ml-3 mb-3">
+                        <div id="statusButton" class="status-button offline " ></div><span> Gateman 1</span>
+                        <div id="statusButton" class="status-button offline ml-2" ></div><span> Gateman 2</span>
+                        <div id="statusButton" class="status-button offline ml-2" ></div><span> Gateman 3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <h5 class="card-title p-2"><b>Plant 4</b></h5>
+                    <img class="card-img-top" src="img/2.png" alt="Card image cap" width="300" height="170">
+                    <div class="card-body">
+                        <img src="img/profile.webp" alt="Girl in a jacket" width="60" height="60"
+                            style="border-radius: 50%; float: left;">
+                        <p class="card-text"><b>Admin</b><br><small class="text-muted">Last active today at 6.23
+                                pm</small></p>
+                    </div>
+                    <div class="ml-3 mb-3">
+                        <div id="statusButton" class="status-button offline " ></div><span> Gateman 1</span>
+                        <div id="statusButton" class="status-button offline ml-2" ></div><span> Gateman 2</span>
+                        <div id="statusButton" class="status-button offline ml-2" ></div><span> Gateman 3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <h5 class="card-title p-2"><b>Plant 5</b></h5>
+                    <img class="card-img-top" src="img/2.png" alt="Card image cap" width="300" height="170">
+                    <div class="card-body">
+                        <img src="img/profile.webp" alt="Girl in a jacket" width="60" height="60"
+                            style="border-radius: 50%; float: left;">
+                        <p class="card-text"><b>Admin</b><br><small class="text-muted">Last active today at 6.23
+                                pm</small></p>
+                    </div>
+                    <div class="ml-3 mb-3">
+                        <div id="statusButton" class="status-button offline " ></div><span> Gateman 1</span>
+                        <div id="statusButton" class="status-button offline ml-2" ></div><span> Gateman 2</span>
+                        <div id="statusButton" class="status-button offline ml-2" ></div><span> Gateman 3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card" style="border-radius: 10px;">
+                    <h5 class="card-title p-2"><b>Plant 6</b></h5>
+                    <img class="card-img-top" src="img/2.png" alt="Card image cap" width="300" height="170">
+                    <div class="card-body">
+                        <img src="img/profile.webp" alt="Girl in a jacket" width="60" height="60"
+                            style="border-radius: 50%; float: left;">
+                        <p class="card-text"><b>Admin</b><br><small class="text-muted">Last active today at 6.23
+                                pm</small></p>
+                    </div>
+                    <div class="ml-3 mb-3">
+                        <div id="statusButton" class="status-button offline " ></div><span> Gateman 1</span>
+                        <div id="statusButton" class="status-button offline ml-2" ></div><span> Gateman 2</span>
+                        <div id="statusButton" class="status-button offline ml-2" ></div><span> Gateman 3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- ------------------------Main Div end---------------------------------- -->
+    <!-- ------------------------footer---------------------------------- -->
+    <div class="text-center p-3" style="background-color: #373193; color: white;">
+        powered by <a href="http://cbsiot.live/" style="text-decoration: none; color: white;"><b>CBSIoT.live</b></a>
+        © 2023 All Rights Reserved.
+    </div>
+    <!-- ------------------------footer end---------------------------------- -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="groups.js"></script>
+</body>
+
+</html>
