@@ -1,0 +1,198 @@
+[
+    {
+        "device_Id": "d2e7823y23de238",
+        "device_name": "X-ray",
+        "current": "0.2324 A",
+        "voltage": "231.09 V",
+        "power": "00.456 KW",
+        "no_of_total": 34,
+        "weekly_value": {
+            "su": 34,
+            "mo": 56,
+            "tu": 24,
+            "we": 434,
+            "th": 12,
+            "fr": 23,
+            "sa": 231
+        },
+        "monthly_value": {
+            "January": 34,
+            "February": 56,
+            "March": 24,
+            "April": 434,
+            "May": 12,
+            "June": 23,
+            "July": 231,
+            "August": 450,
+            "September": 780,
+            "October": 231,
+            "November": 450,
+            "December": 0
+        }
+    },
+    {
+        "device_Id": "d2e7ewdd3e233y23de238",
+        "device_name": "MRI",
+        "current": "0.2324 A",
+        "voltage": "231.09 V",
+        "power": "00.456 KW",
+        "no_of_total": 34,
+        "weekly_value": {
+            "su": 34,
+            "mo": 56,
+            "tu": 24,
+            "we": 434,
+            "th": 12,
+            "fr": 23,
+            "sa": 231,
+            "max-value": 450,
+            "min-value": 0
+        },
+        "monthly_value": {
+            "January": 34,
+            "February": 56,
+            "March": 24,
+            "April": 434,
+            "May": 12,
+            "June": 23,
+            "July": 231,
+            "August": 450,
+            "September": 780,
+            "October": 231,
+            "November": 450,
+            "December": 0
+        }
+    },
+    {
+        "device_Id": "d2e78234311ry23de238",
+        "device_name": "CT-scan",
+        "current": "0.2324 A",
+        "voltage": "231.09 V",
+        "power": "00.456 KW",
+        "no_of_total": 34,
+        "weekly_value": {
+            "su": 34,
+            "mo": 56,
+            "tu": 24,
+            "we": 434,
+            "th": 12,
+            "fr": 23,
+            "sa": 231,
+            "max-value": 450,
+            "min-value": 0
+        },
+        "monthly_value": {
+            "January": 34,
+            "February": 56,
+            "March": 24,
+            "April": 434,
+            "May": 12,
+            "June": 23,
+            "July": 231,
+            "August": 450,
+            "September": 780,
+            "October": 231,
+            "November": 450,
+            "December": 0
+        }
+    },
+    {
+        "device_Id": "d2e7823123w2y23de238",
+        "device_name": "ray",
+        "current": "0.2324 A",
+        "voltage": "231.09 V",
+        "power": "00.456 KW",
+        "no_of_total": 34,
+        "weekly_value": {
+            "su": 34,
+            "mo": 56,
+            "tu": 24,
+            "we": 434,
+            "th": 12,
+            "fr": 23,
+            "sa": 231,
+            "max-value": 450,
+            "min-value": 0
+        },
+        "monthly_value": {
+            "January": 34,
+            "February": 56,
+            "March": 24,
+            "April": 434,
+            "May": 12,
+            "June": 23,
+            "July": 231,
+            "August": 450,
+            "September": 780,
+            "October": 231,
+            "November": 450,
+            "December": 0
+        }
+    },
+    {
+        "device_Id": "d2e732e823y23de238",
+        "device_name": "OTR",
+        "current": "0.2324 A",
+        "voltage": "231.09 V",
+        "power": "00.456 KW",
+        "no_of_total": 34,
+        "weekly_value": {
+            "su": 34,
+            "mo": 56,
+            "tu": 24,
+            "we": 434,
+            "th": 12,
+            "fr": 23,
+            "sa": 231,
+            "max-value": 450,
+            "min-value": 0
+        },
+        "monthly_value": {
+            "January": 34,
+            "February": 56,
+            "March": 24,
+            "April": 434,
+            "May": 12,
+            "June": 23,
+            "July": 231,
+            "August": 450,
+            "September": 780,
+            "October": 231,
+            "November": 450,
+            "December": 0
+        }
+    },
+    {
+        "device_Id": "d2e7823y23de238",
+        "device_name": "Thai",
+        "current": "0.2324 A",
+        "voltage": "231.09 V",
+        "power": "00.456 KW",
+        "no_of_total": 34,
+        "weekly_value": {
+            "su": 34,
+            "mo": 56,
+            "tu": 24,
+            "we": 434,
+            "th": 12,
+            "fr": 23,
+            "sa": 231,
+            "max-value": 450,
+            "min-value": 0
+        },
+        "monthly_value": {
+            "January": 34,
+            "February": 56,
+            "March": 24,
+            "April": 434,
+            "May": 12,
+            "June": 23,
+            "July": 231,
+            "August": 450,
+            "September": 780,
+            "October": 231,
+            "November": 450,
+            "December": 0
+        }
+    }
+]

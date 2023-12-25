@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css"
+        integrity="sha512-ZH3KB6wI5ADHaLaez5ynrzxR6lAswuNfhlXdcdhxsvOUghvf02zU1dAsOC6JrBTWbkE1WNDNs5Dcfz493fDMhA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/radar.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- ===================================nev ber================================ -->
+    <nav class="navbar navbar-expand-lg navbar-dark project-background-color">
+        <a class="navbar-brand" href="#">Sanjeevani</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto"> <!-- Use ml-auto here -->
+                <li class="nav-item active dropdown">
+                    <a class="nav-link disabled ml-3 " href="#" id="avatarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <img src="https://as2.ftcdn.net/v2/jpg/04/80/48/17/1000_F_480481786_WtcrETlWWbslBPBJL4iDH6gICRIT8tR1.jpg"
+                            alt="Avatar" class="avatar">
+                    </a>
+                    <div class="dropdown-menu bg-secondary" aria-labelledby="avatarDropdown">
+                        <a class="dropdown-item my-2" href="#"><i class="ri-pencil-fill"></i> Edit profile</a>
+                        <a class="dropdown-item my-2" href="#"><i class="ri-price-tag-3-fill"></i> Tags</a>
+                        <a class="dropdown-item" href="#"><i class="ri-git-repository-private-fill"></i> Privacy</a>
+                        <a class="dropdown-item my-2" href="#"><i class="ri-settings-5-fill"></i> Settings</a>
+                        <a class="dropdown-item" href="#"><i class="ri-logout-box-r-line"></i> Logout</a>
+                    </div>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link nav-icon ml-4 " href="#" id="notificationDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="ri-notification-3-fill"></i>
+                        <span class="badge badge-danger" style="font-size: 12px;">9+</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="notificationDropdown" style="padding: 10px;">
+                        <a class="dropdown-item bg-warning" href="#">40% of the visitors</a>
+                        <a class="dropdown-item bg-warning my-2" href="#">that land on your news </a>
+                        <a class="dropdown-item bg-warning my-2" href="#">pages do not read after</a>
+                        <a class="dropdown-item bg-warning" href="#">40% of the visitors</a>
+                        <a class="dropdown-item bg-warning my-2" href="#">that land on your news </a>
+                        <a class="dropdown-item bg-warning my-2" href="#">pages do not read after</a>
+                        <a class="dropdown-item bg-warning" href="#">40% of the visitors</a>
+                        <a class="dropdown-item bg-warning my-2" href="#">that land on your news </a>
+                        <a class="dropdown-item bg-warning my-2" href="#">pages do not read after</a>
+                    </div>
+                </li>
+
+
+
+                <li class="nav-item active">
+                    <a class="nav-link  nav-icon ml-4" href="#">
+                        <i class="ri-moon-clear-fill"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- ===================================nev ber end================================ -->
+    <!-- ===================================side ber================================ -->
+    <nav class="nav">
+        <ul>
+            <li>
+                <a href="#" class="icon-sideber"><i class="ri-home-8-fill"></i></a>
+                <hr>
+            </li>
+            <li>
+
+                <a href="#" class="icon-sideber"><i class="ri-layout-2-fill"></i></a>
+                <hr>
+            </li>
+            <li>
+
+                <a href="#" class="icon-sideber"><i class="ri-bar-chart-grouped-fill"></i></a>
+                <hr>
+            </li>
+            <li>
+
+                <a href="#" class="icon-sideber"><i class="ri-menu-add-line"></i></a>
+                <hr>
+            </li>
+        </ul>
+    </nav>
+    <!-- ===================================side ber end================================ -->
+    <div class="card-group my-4">
+        <div class="card" style="position: relative; margin-left: 20px;">
+            <img class="card-img-top" src="img/Screenshot 2023-12-23 160844.png" alt="Card image cap" height="300px" width="100px">
+            <div class="card-img-overlay" style="color: white;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <button type="button" class="btn btn-lg bg-light">
+                                <span style="color: black;">Current :</span>
+                                <samp style="color: blue">0.1986 A</samp>
+                            </button>
+                            <hr>
+                            <button type="button" class="btn btn-lg bg-light">
+                                <span style="color: black;">Voltage :</span>
+                                <samp style="color: green;">235.98 V</samp>
+                            </button>
+                            <hr>
+                            <button type="button" class="btn btn-lg bg-light">
+                                <span style="color: black;">Power :</span>
+                                <samp style="color: red;">00.005 KW</samp>
+                            </button>
+                        </div>
+                        <div class="col-sm">
+                            <p class="h1"><b>No Of</b></p>
+                            <p>x-ray done today</p>
+                            <h1><b>34</b></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="position: relative; margin-left: 20px;">
+            <img class="card-img-top" src="img/Screenshot 2023-12-23 160844.png" alt="Card image cap" height="300px" width="100px">
+            <div class="card-img-overlay" style="color: white;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <button type="button" class="btn btn-lg bg-light">
+                                <span style="color: black;">Current :</span>
+                                <samp style="color: blue">0.1986 A</samp>
+                            </button>
+                            <hr>
+                            <button type="button" class="btn btn-lg bg-light">
+                                <span style="color: black;">Voltage :</span>
+                                <samp style="color: green;">235.98 V</samp>
+                            </button>
+                            <hr>
+                            <button type="button" class="btn btn-lg bg-light">
+                                <span style="color: black;">Power :</span>
+                                <samp style="color: red;">00.005 KW</samp>
+                            </button>
+                        </div>
+                        <div class="col-sm">
+                            <h1><b>No Of</b></h1>
+                            <p>x-ray done today</p>
+                            <h1><b>34</b></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="position: relative; margin-left: 20px;">
+           
+            <img class="card-img-top" src="img/Screenshot 2023-12-23 160844.png" alt="Card image cap" height="300px" width="100px">
+            <div class="card-img-overlay" style="color: white;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <button type="button" class="btn btn-lg bg-light">
+                                <span style="color: black;">Current :</span>
+                                <samp style="color: blue">0.1986 A</samp>
+                            </button>
+                            <hr>
+                            <button type="button" class="btn btn-lg bg-light">
+                                <span style="color: black;">Voltage :</span>
+                                <samp style="color: green;">235.98 V</samp>
+                            </button>
+                            <hr>
+                            <button type="button" class="btn btn-lg bg-light">
+                                <span style="color: black;">Power :</span>
+                                <samp style="color: red;">00.005 KW</samp>
+                            </button>
+                        </div>
+                        <div class="col-sm">
+                            <h1><b>No Of</b></h1>
+                            <p>x-ray done today</p>
+                            <h1><b>34</b></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="card-group" style="padding-left: 20px;">
+        <div class="card">
+            <div class="card-body">
+                <div id="chartdiv-one"></div>
+            </div>
+        </div>
+        <div class="card" style="margin-left: 20px;">
+            <div class="card-body">
+                <div id="chartdiv-two"></div>
+            </div>
+        </div>
+        <div class="card" style="margin-left: 20px;">
+            <div class="card-body">
+                <div id="chartdiv-three"></div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="card-group" style="padding-left: 20px;">
+        <div class="card">
+            <div class="card-body">
+                <div id="chartdiv"></div>
+            </div>
+        </div>
+        <div class="card" style="margin-left: 20px;">
+            <div class="card-body">
+                <div id="chartdiv2"></div>
+            </div>
+        </div>
+        <div class="card" style="margin-left: 20px;">
+            <div class="card-body">
+                <div id="chartdiv3"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
